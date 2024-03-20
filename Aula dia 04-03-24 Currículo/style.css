@@ -1,0 +1,32 @@
+.cabecalho{
+margin: 0px;
+padding: 0px;
+background-color: rgb(147, 147, 147);
+box-sizing: border-box;
+margin-top: 0px;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+.head{
+    margin: 0px;
+}
+
+.img{
+height: 150px;
+
+
+
+}
+.nome{
+    text-align: center;
+
+}
+
+.infopessoal{
+    text-align: center;
+
+}
