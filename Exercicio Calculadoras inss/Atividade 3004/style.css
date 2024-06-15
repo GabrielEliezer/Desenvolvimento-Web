@@ -1,0 +1,188 @@
+.body{
+    background-color: rgb(2, 52, 30);
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    margin: 0px;
+    padding: 0px;
+}
+.calculadoras{
+    font-size:90px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: center;
+}
+.aside{
+
+    background-color:rgb(1, 23, 6);
+    height: 100vh;
+    width:15vw;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.matematica{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(141, 88, 192);
+}
+.matematica:hover{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(243, 242, 245);
+}
+.inss{
+    display: flex;
+    margin-top: 2vw;
+    justify-content: center;
+    background-color: rgb(141, 88, 192);
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+    align-items: center;
+}
+.inss:hover{
+    display: flex;
+    margin-top: 2vw;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(7, 64, 64);
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    
+}
+.separarasidemain{
+    display: flex;
+    flex-direction: row;
+}
+.salarioBruto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top:10vh;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.dependentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top:10vh;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.valor_inss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top:10vh;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.valor_irff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top:10vh;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.salario_liquido{
+    margin-top:10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.ReceberSalarioBruto{
+ display: flex;
+ align-items: center;
+ background-color: rgb(128, 115, 139);
+ height: 2vw;
+ width: 30vh;
+ margin-top:10vh;
+ text-align: center;
+ justify-content: center;
+ padding:0;
+ border: none;
+}
+
+.container{
+    display: flex;
+}
+
+.botaoEnviar{
+margin-left:10px;
+margin-top: 10vh;
+width: 10vh;
+height:1.5vw;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+position: relative;
+background-color: aquamarine;
+margin-top:75px;
+}
+

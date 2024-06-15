@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Avaliativa André</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <form name="CadPessoas">
+        <div class="cabecalho">
+            <p>Nome</p>
+            <input type="text" name="txtNome">    
+            <p>Idade</p>
+            <input type="text" name="txtIdade">
+            <p>Nacionalidade</p>
+            <input type="text" name="txtNacionalidade"><br>
+
+            <input type="button" value="Realizar Cadastro" onclick="addPessoa(txtNome.value, txtIdade.value, txtNacionalidade.value)"/>
+            <input type="button" value="Excluir" onclick="excluirDado()"/>
+            <input type="button" value="Editar Dado" onclick="editarLine()"/>
+            <input type="button" value="Excluir por Linha" onclick="excluirlinha()"/>
+        
+        </div>
+    </form>
+
+    <div id="idtable">
+        <table id="idtablee">
+            <thead>  
+                <tr>  
+                    <td class="ID">ID</td>
+                    <td class="Nome">Nome</td>
+                    <td class="Idade">Idade</td>
+                    <td class="Nacionalidade">Nacionalidade</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.header2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.imagem1{
+
+width: 1103px;
+margin-left: 160px;
+margin-top: 20px;
+background-color: white;
+}
+
+.im{
+    margin-top: 20px;
+    text-align:center;
+    width:1200px;
+    margin-left:115px;
+    background-color: white;
+    padding: 10px;
+}
+
+.git{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.git:hover{
+    background-color: rgb(206, 177, 51);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.imagem2{
+    border: 2px solid black;
+    width: 1103px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: white;
+    }
+
+    .imagemnsql1{
+
+        width: 800px;
+        margin-left: 320px;
+        margin-top: 20px;
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+    }

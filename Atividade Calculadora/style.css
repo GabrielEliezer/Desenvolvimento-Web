@@ -7,14 +7,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(242, 22, 22);
+    background-color: rgb(31, 83, 88);
 
 }
 
 input{
 
     
-    color: rgb(0, 51, 34);
+    color: rgb(6, 156, 106);
     padding: 17px;
     outline: none;
     font-size: 30px;
