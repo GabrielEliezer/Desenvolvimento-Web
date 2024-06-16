@@ -15,32 +15,51 @@
 
 
 
-<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio1.png" alt="" width="1103px" height="301px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio2.png" alt="" width="1103px" height="301px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio1.png" alt="" width="1103px" height="301px"> <br> Essa foi uma das primeiras atividades que fizemos onde relacionamos duas tabelas através de uma entidade de relacionamento, atribuimos as Primary Keys que servem para registrar individualmente cada item em uma tabela, atribuimos as cardinalidades
+ao diagrama entidade relacionamento, atribuimos também as Foreign Key que é possível identificar pelos simbolos de "#" antes do nome. </div>
+<br><br><br>
 
-<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio3.png" alt="" width="1103px" height="301px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio2.png" alt="" width="1103px" height="301px"> <br> Criamos esse diagrama com base em uma sequencia de requisitos que precisavamos cumprir, por exemplo, se o cliente quiser sber a quantidade de alunos de tal curso, qual curso é, disciplinas optativas e obrigatórias, entre outros pontos. Vale destacar que 
+os requisitos são um ponto impórtante na elaboração de um diagrama pois atraves deles poderemos criar as relações e as consultas no banco de dados. Assim como a imagem anterior, aplicamos os mesmos conceitos porém acrescido da foreign key que estão presentes em uma entidade de relacionamento e na tabela de Alunos, a importancia da Foreign key surge quando não se é possível
+estabeçer uma relação entre duas tabelas se a tabela não possuir a Foreign Key, em uma relação entre tabelas onde a cardinalidade é N:N existe a necessidade de criarmos uma tabela a mais, onde contem as duas Foreign Keys para podermos estabelecer a relação entre as tabelas. </div>
+<br><br><br>
 
-<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio4.png" alt="" width="1103px" height="301px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio3.png" alt="" width="1103px" height="301px"> <br> Assim como o exercicio anterior, foi necessário a criação de uma tabela a mais que seria a nossa entidade de relacionamento, isso se dá pois em um banco de dados relacional, quando temos uma relação muitos-para-muitos (N
+N) entre duas entidades, é necessário criar uma tabela intermediária, chamada de entidade de relacionamento ou tabela de junção (junction table), para gerenciar essa relação. Existem as Normalizações de tabelas, chamadas de Formas normais, na teoria de normalização, não é permitido ter uma relação muitos para muitos entre duas tabelas, a separação da relação em duas relações 1:N 
+permite uma melhor consulta no banco de dados, também tem a questão de integridade referencial, quando separamos em duas tabelas garantimos que as relações entre as entidades sejam consistentes. </div>
+<br><br><br>
 
-<div class="imagem1"><img src="../imagens/Banco de Dados/Exercicio5.png" alt="" width="1103px" height="301px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagem54"><img src="../imagens/Banco de Dados/comandos .png" alt="" width="800px" height="501px"> <br> Aqui podemos ver os comandos DML (Data manipulation language), essa classe de comandos se caracteriza pelos comandos Insert, Update, Delete, Select. Também podemos ver os comandos Create, que são comandos DDL (Data definition language), os comandos DDL são Create, Alter e Drop.
+Para utilizar os comandos Create inserimos o comando seguido do nome da tabela, por exemplo: Create table cachorro, assim criando a tabela cachorro. Cada comando existe uma sintaxe de uso que podemos encontrar facilmente em uma rápida pesquisa. </div>
+<br><br><br>
 
-<div class="im"><img src="../imagens/Banco de Dados/Exercicio Avaliativo Cainã.png" alt=""width="1200px" height="750px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
+<div class="imagem54"><img src="../imagens/Banco de Dados/Comandos2.png" alt="" width="800px" height="501px"> <br> Nessa imagem, vemos as consultas realizadas em um banco de dados relacional, os comandos Select, selecionam a coluna que gostariamos, de acordo com o From que seria a tabela, para selecionar um cachorro da tabela animais seria o seguinte comando: Select cachorro From Animais,
+os comandos de Select e From fazem parte dos comandos DQL (Data query Language), porém, existem outros do tipo DQL como Inner join.   </div>
+<br><br><br>
+
+<div class="im"><img src="../imagens/Banco de Dados/Exercicio Avaliativo Cainã.png" alt=""width="1200px" height="750px"> <br> Nessa imagem, criamos o diagrama mais dificil da matéria, tivemos várias dificuldades porém deu tudo certo! Criamos um banco de dados para um sistema educacional, onde temos os alunos, disciplinas optativas e obrigatorias, cursos disponiveis e departamentos. Para realizar 
+essa atividade depois de elaborar o diagrama, criamos o Query utilizamos os comandos, DML, DQL e DDL, criamos as tabelas, inserimos os dados nas tabelas, criamos as consultas e a maior dificuldade foi criar as consultas onde usamos os diversos comandos ensinados durante o semestre, segue um exemplo de comando utilizado para apresentar a quantidade de alunos ativos por curso:
 <br><br>
+SELECT nomeCurso, COUNT(*) AS quantidade FROM (matriculas NATURAL INNER JOIN estudantes) INNER JOIN cursos USING (idCurso)
+WHERE graduado=false
+GROUP BY nomeCurso; </div>
+<br><br><br>
+
+
 <div class="header2">Banco de Dados Não Relacional</div>
-<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem 1 Nosql.png" alt="" width="700px" height="500px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem 1 Nosql.png" alt="" width="700px" height="500px"> <br> Inicialmente entendemos o que é um banco de dados Não relacional, descobrimos um deles que é o MongoDb, instalamos o mongoDb Compass que utilizamos para ver os bancos de dados e realizar algumas cosultas além de inserir os dados. Nessa primeira imagem inserios os valores em formato Json{}
+e realizamos algumas consultas atraves da propria interface do compass. </div>
+<br><br><br>
 
-<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem 2 Nosql.png" alt="" width="700px" height="500px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem 2 Nosql.png" alt="" width="500px" height="400px"> <br> Nessa imagem temos os dados inseridos em um banco de dados, e mostro como fazer uma consulta simples, onde especifico o elemento que eu quero (name) e informo qual o nome que deve ser buscado, existe a sintaxe que deve estar correta para fazer a consulta pois se não o retorno não ocorre. 
+    Existem outros comandos e formas de consulta pelo compass porém abordarei de forma simples pois ja realizei todas as consultas e enviei atraves do Google Classrom para o professor. </div>
+<br><br><br>
 
-<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem6 Nosql.png" alt="" width="700px" height="500px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<br><br>
+<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem6 Nosql.png" alt="" width="700px" height="500px"> <br> Podemos também criar consultas, inserir dados, criar banco de dados, através do Terminal, precisamos baixar uma extensão do mongoDb e instalar ela no terminal, assim podemos nos conectar ao banco de dados. Na imagem acima, criei a consulta que busca um livro através do numero de paginas dele,
+utilizando a lógica AND. Toda essa consulta foi feita conectando o MongoDb online com o Terminal, usando o comando do atlas disponibilizado proprio site do MongoDb.</div>
+<br><br><br>
 
-<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem7 Nosql.png" alt="" width="700px" height="500px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
+<div class="imagemnsql1"><img src="../imagens/Banco de Dados/Imagem7 Nosql.png" alt="" width="700px" height="500px"> <br> Nessa imagem mostro os erros que tive ao tentar realizar algumas consultas até conseguir o resultado certo. Essa consulta deveria retornar o livro mais antigo, quando alteramos o valor de limit alteraqmos a ordenação do banco de dados, assim sendo possível retornar os valores do livro mais novo ou mais antigo. </div>
 
 
 </body>

@@ -8,18 +8,44 @@
 
 </head>
 <header class="header2">Ciência de Dados</header>
-<a href="https://github.com/GabrielEliezer/Automation-Files" target="_blank"><button class="git">GitHub</button></a>
+<a href="https://colab.research.google.com/drive/1pWy2atlEs0rTqS-XEpe5wFjvmrPtnl7v#scrollTo=Mo01gbBfO73f" target="_blank"><button class="git">Google Colab</button></a>
 </body>
 <body class="body">
 
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 1.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 2.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 3.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 4.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div></body>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 5.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 6.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div></body>
-<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 7.png" alt="" width="800px" height="400px"> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod saepe maiores nobis sunt. Iusto, expedita, a deleniti provident repellendus eius sapiente tempore doloribus modi vero soluta doloremque! Explicabo, facilis magnam. </div>
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem.png" alt="" width="800px" height="400px"> <br> 
+    Nessa imagem mostro como importar algumas bibliotecas no Colab, quando colocamos import numpy as np, definimos que a sigla np estamos chamando um parametro de numpy. Também foi importado a biblioteca pandas que serve para analise de dados. Importamos um dataframe do GitHub e inserimos esse dataframe dentro de df, sendo assim sempre que chamarmos df 
+no codigo estaremos nos referindo ao dataframe. </div>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 1.png" alt="" width="800px" height="400px"> <br> 
+    Aprendemos sobre os diversos tipos de amostra, sendo esse da imagem a amostra aleatoria, mostro diversos comandos que na imagem entre eles o df.iloc[1,2] que retorna a coluna 1 e a linha 2, também mostro que podemos aplicar o comando de outras formas, o comando np.random.randint  retorna um valor aleatorio e podemos parametrizar o range que esse valor pode estar. </div>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 2.png" alt="" width="800px" height="400px"> <br>
+Nessa imagem vemos a parte de Tendencias centrais onde estudamos, modal, bimodal e polimodal. Os comandos da parte de tendencias centrais pegam um dataframe e retornam o valor que contem nele indicando se é Modal, Bimodal ou Polimodal, sendo assim declaramos uma variavel e atribuimos um dataframe a ela, depois colocamos o nome da variavel da seguinte forma: 'variavel.mode()', 
+esse comando retorna o tipo de tendencia central. </div>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 3.png" alt="" width="800px" height="400px"> <br> 
+ Nesse comando, atribuimos a parte de tendencias centrais ao dataframe do titanic, no comando df.[['pclas','survived'...]] declaramos as colunas que queremos utilizar o comando .mode(), assim obtemos o valor mais frequente do dataframe em cada coluna.</div>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 4.png" alt="" width="800px" height="400px"> <br> 
+    Nessa imagem, iniciamos o desenvolvimento de gráficos por meio de um dataframe. O comando df.groupby Junta diferentes tipos de dados de uma mesma coluna e o .count retorna a quantidade de mesmo dado da coluna. O comando df.fillna(0) preenche os comapos que nao contem numero com o valor de 0 para podermos utilizar o df normalmente.</div></body>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 5.png" alt="" width="800px" height="400px"> <br>
+    Nessa imagem mostro os comando que usamos para gerar um gráfico. <br> O comando df.groupby(column).count().plot(y='name', kind='bar', figsize=[15,5], legend=False) utiliza a biblioteca pandas em Python para agrupar um DataFrame pela coluna especificada, contar os elementos de cada grupo, e depois plotar um gráfico de barras com os resultados. </div>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 6.png" alt="" width="800px" height="400px"> <br> Nessa imagem mostro as Medidas de dispersão, onde vimos sobre amplitude, amplitude é a distancia de um valor para outro, por exemplo de 1.5 pára 2 a amplitude é 0.5, nesse caso fizemos uma verificação rápida para saber a amplitude de alguns valores
+     informados em um DF, em seguida pegamos o Dataframe e fazemos o calculo de amplitude maxima e minima, verificamos se a amplitude é maior ou igual a 0.8 e imprimimos na tela uma manesagem.  </div></body>
+<br><br><br>
+
+<div class="imagem1"><img src="../imagens/Ciencia de Dados/Amostragem 7.png" alt="" width="800px" height="400px"> <br> 
+Nessa imagem aplicamos o calculo de amplitude no dataframe do titanic, aplicamos para cada coluna com valor numerico, seja inteiro ou float porém em python precisamos colocar como type int64 e float 64 e imprimimos o nome da coluna e o valor da amplitude na coluna determinada.
+Na segunda parte pegamos os valores das colunas, aplicamos o calculo no dataframe também e especificamos para ele pegar os valores somente onde as celulas são númericas.
+</div>
 
 <script src="../script/script.js"></script>
 </html>

@@ -10,10 +10,10 @@
 
 .imagem1{
 
-width: 1103px;
-margin-left: 160px;
-margin-top: 20px;
-background-color: white;
+    width: 1103px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: white;
 }
 
 .im{
@@ -53,12 +53,19 @@ background-color: white;
     background-color: white;
     }
 
-    .imagemnsql1{
+.imagemnsql1{
 
-        width: 800px;
-        margin-left: 320px;
-        margin-top: 20px;
-        background-color: white;
-        text-align: center;
-        padding: 10px;
-    }
+    width: 800px;
+    margin-left: 320px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagem54{
+    width: 1103px;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: white;
+}
